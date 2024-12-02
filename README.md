@@ -59,6 +59,9 @@ Här följer skärmdumpar på hur konfigurationen för dem kan se ut i detta fal
 
 ![Bild på utskick](images/utskick.png?raw=true "Utskick")
 
+### Statusfunktion
+
+Om man väljer det i inställningarna skapar appen en statusfunktion. Den har ett värde som motsvarar hur många funktioner den övervakar. Appen uppdaterar funktionen var 5:e minut vilket gör att den funktionen är bra att använda för att monitrerar att allt fungerar som det skall. Funktionen monitorerar också automatiskt av Metric Monitor.
 
 ## Begränsningar
 
