@@ -1,4 +1,4 @@
-# edge-app-medicinskap
+# edge-app-medicinskap-temp-monitoring
 Edge app for monitoring temperature in medicine cabinets.
 
 Denna är finansierad av Jönköpings kommun. Dokumentation därför på svenska.
