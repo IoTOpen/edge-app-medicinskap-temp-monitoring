@@ -1,0 +1,31 @@
+{
+  "author": "IoT Open",
+  "licence": "MIT",
+  "input": {
+	  "notification_output": {
+		  "name": "Välj notifieringsvägar",
+		  "description": "Ange vilka notifieringsvägare som skall användas vid larm.",
+		  "type": "multi_notification_output_selector"
+	  },
+	  "status_function": {
+		  "name": "Skapa statusfunktion",
+		  "description": "En statusfunktion kan användas för att monitorera att appen körs och fungerar som den skall",
+  		  "type": "toggle",
+		  "default": true,
+		  "false_value": "Nej",
+		  "true_value": "Ja"
+	  }
+
+  },
+  "guide": [
+    {
+      "id": "stage_1",
+      "title": "Konfigurera tempereaturmonitoreringen",
+      "description": "Konfigurering sker via metadata. Här behöver bara anges hur larm skall skickas.",
+      "input_fields": [
+		  "notification_output",
+		  "status_function"
+      ]
+    }
+  ]
+}
