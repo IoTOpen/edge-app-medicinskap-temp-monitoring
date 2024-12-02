@@ -55,6 +55,10 @@ E-post behöver också en metadata `subject` som skall vara ärendet i brevet. M
 
 Här följer skärmdumpar på hur konfigurationen för dem kan se ut i detta fall.
 
+![Bild på meddelandet](images/meddelande.png?raw=true "Meddelande")
+
+![Bild på utskick](images/utskick.png?raw=true "Utskick")
+
 
 ## Begränsningar
 
